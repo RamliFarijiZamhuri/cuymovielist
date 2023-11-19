@@ -24,7 +24,6 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  overflow-x: auto;
 }
 
 .Movie-wrapper {
@@ -59,4 +58,23 @@
   font-weight: bold;
   font-size: 1.2em;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  .Movie-search {
+    height: 24px;
+    font-size: 20px;
+    width: 275px;
+  }
+
+  .Movie-wrapper {
+    width: 300px;
+  }
+
+  .Movie-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+
 }
